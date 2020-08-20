@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* base styles */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	border: 2px solid black;
+	margin: 15px;
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+	float: left;
+}
+
+#p1 {
+	background-color: #CC0000;
+}
+
+#p2 {
+	background-color: #FFCC00;
+}
+
+#p3 {
+	background-color: #00CCCC;
+}
+
+#right {
+	background-color: #FFFF33;
+	width: 65px;
+	height: 20px;
+	border: 2px solid black;
+	float: right;
+	padding: 5px;
+	text-align: center;
+	margin: -12px -12px 0px 0px;
+}
+
+/* media queries */
+
+@media (min-width: 1200px) {
+#p1 {
+	background-color: #CC0000;
+	width: 400px;
+	height: 200px;
+}
+
+#p2 {
+	background-color: #FFCC00;
+	width: 400px;
+	height: 200px;
+}
+
+#p3 {
+	background-color: #00CCCC;
+	width: 400px;
+	height: 200px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+#p1 {
+	background-color: #CC0000;
+	width: 400px;
+	height: 200px;
+}
+
+#p2 {
+	background-color: #FFCC00;
+	width: 400px;
+	height: 200px;
+}
+
+#p3 {
+	background-color: #00CCCC;
+	width: 400px;
+	height: 200px;
+}	
+}
+
+@media (min-width:768px and (max-width 991px) {
+#p1 {
+	background-color: #CC0000;
+	width: 400px;
+	height: 200px;
+}
+
+#p2 {
+	background-color: #FFCC00;
+	width: 400px;
+	height: 200px;
+}
+
+#p3 {
+	background-color: #00CCCC;
+	width: 400px;
+	height: 200px;
+}
+}
